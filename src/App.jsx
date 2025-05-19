@@ -7,8 +7,16 @@ const App = () => {
         drag
         whileDrag={{
           scale: 1.2,
-          rotate: 270,
+        
         }}
+        dragConstraints={{
+          left: 100,
+          top: 100,
+          bottom: 200,
+          right: 400,
+        }}
+        dragDirectionLock
+        
         class="box"
       >
         {" "}
@@ -17,9 +25,9 @@ const App = () => {
 
       <motion.div
         animate={{
-          x:[0, 400,400,0,0],
-          y:[0,0,200,200,0],
-          rotate:[0,360,0,-360,0]
+          x: [0, 400, 400, 0, 0],
+          y: [0, 0, 200, 200, 0],
+          rotate: [0, 360, 0, -360, 0],
         }}
         transition={{
           duration: 20,
