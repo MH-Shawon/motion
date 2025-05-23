@@ -1,5 +1,6 @@
 import AnimationControls from "./components/AnimationControls";
 import Basics from "./components/Basics";
+import { CustomKanban } from "./components/Customkanban";
 import Gestures from "./components/Gestures";
 import ScrollAnimations from "./components/ScrollAnimations";
 import ScrollTriggered from "./components/ScrollTriggered";
@@ -17,7 +18,8 @@ const App = () => {
 {/* <AnimationControls /> */}
 {/* <ViewBasedAnimations /> */}
 {/* <ScrollAnimations /> */}
-<ScrollTriggered />
+{/* <ScrollTriggered /> */}
+<CustomKanban />
     </div>
   );
 };

@@ -25,7 +25,7 @@ console.log("this is show", isInView)
       />
 
       <div ref={ref} 
-      style={{ height: "100vh", backgroundColor: "red",
+      style={{ height: "100vh", backgroundColor: isInView? "blue":"red",
         transition:"1s background",
        }}>
 
