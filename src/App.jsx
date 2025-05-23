@@ -1,6 +1,7 @@
 import AnimationControls from "./components/AnimationControls";
 import Basics from "./components/Basics";
 import Gestures from "./components/Gestures";
+import ScrollAnimations from "./components/ScrollAnimations";
 import ViewBasedAnimations from "./components/ViewBasedAnimations";
 
 
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Basics /> */}
 {/* <Gestures /> */}
 {/* <AnimationControls /> */}
-<ViewBasedAnimations />
+{/* <ViewBasedAnimations /> */}
+<ScrollAnimations />
     </div>
   );
 };
